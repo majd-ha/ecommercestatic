@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+
+  background-color: white;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  max-width: 100%;
+  padding: 5px;
+}
+.dropdown-end .dropdown-content {
+  right: -120%;
+  top: 130%;
+}
+.sh {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.nlinksp > p {
+  cursor: pointer;
+  height: 100%;
+  border: 2px solid transparent;
+}
+.nlinksp > p:hover {
+  border-bottom-color: orange;
+}
